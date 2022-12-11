@@ -11942,3 +11942,40 @@ body {
 .link:hover i.github {
   color: gray;
 }
+
+
+
+.parrafoInicio{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+padding: 35% 5%;
+
+}
+
+.h4K{
+color: black;
+font-size: 200%;
+text-decoration:overline;
+color:#16899d;
+}
+
+.pK{
+  color: black;
+  font-size: 120%;
+}
+
+/* DW2 */
+
+/* MARCADORES DE INFORMACION */
+.marcadorInfo {
+  position: absolute;
+  transform: translateX(200px);
+  background-color: #000;
+}
+
+.marcador {
+  height: 2rem;
+}

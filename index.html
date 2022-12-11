@@ -27,6 +27,8 @@
             <div class="modal-content">
                 <div class="modal-header flex-modal">
                     <h1 class="titulo-mayores">HACKERS</h1>
+                    <button class="btnInfoHackers"><i class="fa-regular fa-bookmark marcador"></i></button>
+                    <button class="btnInfoHackersB"><i class="fa-regular fa-bookmark marcador"></i></button>
                 </div>
                 <div class="modal-main">
                     <p class="txt-mayores">Persona que por sus avanzados conocimientos en el área de informática tiene
@@ -42,6 +44,8 @@
             <div class="modal-content">
                 <div class="modal-header flex-modal">
                     <h1 class="titulo-mayores">HACKING</h1>
+                    <button class="btnInfoHacking"><i class="fa-regular fa-bookmark marcador"></i></button>
+                    <button class="btnInfoHackingB"><i class="fa-regular fa-bookmark marcador"></i></button>
                 </div>
                 <div class="modal-main">
                     <p class="txt-mayores">Arte de la intrusión directa a un sistema informático ayudándose de alguna
@@ -56,6 +60,8 @@
             <div class="modal-content">
                 <div class="modal-header flex-modal">
                     <h1 class="titulo-mayores">INGENIERÍA SOCIAL</h1>
+                    <button class="btnInfoIngSocial"><i class="fa-regular fa-bookmark marcador"></i></button>
+                    <button class="btnInfoIngSocialB"><i class="fa-regular fa-bookmark marcador"></i></button>
                 </div>
                 <div class="modal-main">
                     <p class="txt-mayores">Consiste en la utilización de técnicas de índole psicológica, para lograr
@@ -70,21 +76,8 @@
             <div class="modal-content">
                 <div class="modal-header flex-modal">
                     <h1 class="titulo-mayores">Phishing</h1>
-                </div>
-                <div class="modal-main">
-                    <p class="txt-mayores">Es una técnica de engaño que utilizan los piratas informáticos para robar
-                        nuestros datos personales y bancarios a través de la página web falsa de alguna institución
-                        oficial.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="phishing">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header flex-modal">
-                    <h1 class="titulo-mayores">Phishing</h1>
+                    <button class="btnInfoPhishing"><i class="fa-regular fa-bookmark marcador"></i></button>
+                    <button class="btnInfoPhishingB"><i class="fa-regular fa-bookmark marcador"></i></button>
                 </div>
                 <div class="modal-main">
                     <p class="txt-mayores">Es una técnica de engaño que utilizan los piratas informáticos para robar
@@ -100,6 +93,8 @@
             <div class="modal-content">
                 <div class="modal-header flex-modal">
                     <h1 class="titulo-mayores">Filtros Antispam</h1>
+                    <button class="btnInfoSpam"><i class="fa-regular fa-bookmark marcador"></i></button>
+                    <button class="btnInfoSpamB"><i class="fa-regular fa-bookmark marcador"></i></button>
                 </div>
                 <div class="modal-main">
                     <p class="txt-mayores">Son aplicaciones informáticas que se encarga de detectar y eliminar el spam y
@@ -114,6 +109,8 @@
             <div class="modal-content">
                 <div class="modal-header flex-modal">
                     <h1 class="titulo-mayores">Cookies</h1>
+                    <button class="btnInfoCookies"><i class="fa-regular fa-bookmark marcador"></i></button>
+                    <button class="btnInfoCookiesB"><i class="fa-regular fa-bookmark marcador"></i></button>
                 </div>
                 <div class="modal-main">
                     <p class="txt-mayores">fichero de texto que se almacena en su ordenador al acceder a determinadas
@@ -122,6 +119,14 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
 
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -137,7 +142,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">Inseguridad Informática</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Informacion</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#generator">Generador</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#generator">Verificador</a></li>
                 </ul>
             </div>
         </div>
@@ -179,19 +184,22 @@
                     <p class="text-white-50 txt-mayores">
                         La inseguridad informática es la falta o poca seguridad en un medio informático. Esto le concede
                         a los <button class="btn-outline-link btn-texto" data-bs-toggle="modal"
-                            data-bs-target="#hacker"><b>hackers</b></button> el acceso a nuestros datos privados.
+                            data-bs-target="#hacker"><b class="textoInfoHackers">hackers</b></button> el acceso a
+                        nuestros datos privados.
                         La inseguridad informática se produce principalmente por la comodidad o falta de conocimientos
                         del usuario.
                         Las personas mal intencionadas utilizan técnicas de <button class="btn-outline-link btn-texto"
-                            data-bs-toggle="modal" data-bs-target="#hacking"><b>hacking</b></button>, como la <button
+                            data-bs-toggle="modal" data-bs-target="#hacking"><b
+                                class="textoInfoHacking">hacking</b></button>, como la <button
                             class="btn-outline-link btn-texto" data-bs-toggle="modal"
-                            data-bs-target="#ingenieriaSocial"><b>ingeniería social</b></button>, para explotar las
+                            data-bs-target="#ingenieriaSocial"><b class="textoInfoIngSocial">ingeniería
+                                social</b></button>, para explotar las
                         vulnerabilidades del sistema.
                     </p>
                 </div>
             </div>
             <img data-aos="fade-up" src="assets/img/malware-una-amenaza-real-y-actual-ciberaprende.gif" Inseguridad
-                Informática" />
+                Informática />
         </div>
     </section>
     <!-- Projects-->
@@ -203,7 +211,7 @@
                         alt="..." /></div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4>5 Medidas de Seguridad Informática</h4>
+                        <h4>3 Medidas de Seguridad Informática</h4>
                         <p class="text-black-50 mb-0">Te mostraremos algunos tips de seguridad que te servirán para
                             evitar las distintas amenazas que hay en la red.</p>
                     </div>
@@ -221,11 +229,13 @@
                                 <p class="mb-0 text-white-50" style="font-size: 115%">El correo electrónico se ha
                                     convertido en una fuente de información sensible que debe ser protegida, tras las
                                     diversas trampas como el<button class="btn-outline-link btn-texto"
-                                        data-bs-toggle="modal" data-bs-target="#phishing"><b>phishing</b></button>con la
+                                        data-bs-toggle="modal" data-bs-target="#phishing"><b
+                                            class="textoInfoPhishing">phishing</b></button>con la
                                     que pueden extraer hasta datos sobre nuestras tarjetas de crédito. Una de las
                                     medidas de seguridad que se recomienda es la de usar <button
                                         class="btn-outline-link btn-texto" data-bs-toggle="modal"
-                                        data-bs-target="#filtros-antispam"><b>filtros antispam.</b></button>
+                                        data-bs-target="#filtros-antispam"><b class="textoInfoSpam">filtros
+                                            antispam.</b></button>
                                 </p>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
@@ -263,7 +273,8 @@
                                 <p class="mb-0 text-white-50" style="font-size: 115%">Los expertos aconsejan activar los
                                     modos privados en los navegadores y controlar y borrar las<button
                                         class="btn-outline-link btn-texto" data-bs-toggle="modal"
-                                        data-bs-target="#cookies"><b>cookies,</b></button>para no dejar rastro de
+                                        data-bs-target="#cookies"><b class="textoInfoCookies">cookies,</b></button>para
+                                    no dejar rastro de
                                     nuestra actividad en los sitios web visitados.<br>
                                     Otra de las acciones que se tienen que hacer para preservar esa seguridad en el
                                     acceso a internet es la de no conectarse a redes Wi-fi públicas.
@@ -274,64 +285,60 @@
                     </div>
                 </div>
             </div>
-            <div class="row gx-0 justify-content-center" data-aos="fade-left">
-                <div class="col-lg-6 border-img"><img class="img-fluid img-cmu" src="assets/img/backup.gif"
-                        alt="Copias de seguridad" /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">4-Realizar copias de seguridad al día</h4>
-                                <p class="mb-0 text-white-50" style="font-size: 115%;">Realizar periódicamente backups o
-                                    copias de seguridad es otra de las acciones que hay que hacer si queremos proteger
-                                    nuestra base de datos. Para no perder datos como fotografías o contenido personal es
-                                    fundamental realizar copias de seguridad cada cierto tiempo. </p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-right">
-                <div class="col-lg-6 border-img"><img class="img-fluid img-cmu" src="assets/img/celular.gif"
-                        alt="teléfono móvil" /></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">5-Proteger el Teléfono Móvil</h4>
-                                <p class="mb-0 text-white-50" style="font-size: 115%">Igual que sucede con el PC debemos
-                                    proteger todos los accesos posibles del móvil mediante patrones o contraseñas.
-                                    Además de datos bancarios, también se encuentra el correo electrónico, imágenes,
-                                    vídeos personales, conversaciones privadas en aplicaciones de mensajería
-                                    instantánea,etc…Lo que hace que sea muy importante protegerlo.</p>
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+
+
+            <!-- -----------------------INFO DEL KEYLOGGER -->
+
+
+
+
             <hr>
-            <!-- contr. + usadas 1-->
+            <br>
+            <br>
+            <br>
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-centerC py-3" data-aos="fade-up">
+
+                <div class="col-xl-4 col-lg-5">
+                    <div class="parrafoInicio  text-center ">
+                        <h3 class="h4K">KEYLOGGER</h3>
+                        <p class="text-black-80 pK">Poximamente te vamos a informar sobre una forma nueva de hackeo.
+                            <br>
+                            ¿Qué es? ¿Cuántos tipos hay? ¿Cómo lo prevengo?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/keylogg5.webp" alt="..." />
+                </div>
+            </div>
+
+
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-left">
-                <div class="col-lg-6 border-img"><img class="img-fluid img-cmu" src="assets/img/apps.gif"
+                <div class="col-lg-6 border-img"><img class="img-fluid img-cmu" src="img/keylogger1.webp"
                         alt="Contraseñas mas usadas" /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">CONTRASEÑAS MÁS USADAS</h4>
+                                <h4 class="text-white">¿QUÉ ES UN KEYLOGGER?</h4>
                                 <p class="mb-0 text-white-50" style="font-size: 120%">
-                                    La mayoria cuando crea una contraseña lo primero que piensa es en <sub>datos
-                                        personales </sub>(nombre de mascotas,cumpleaños,su nombre,etc)
-                                    <br>Pero esas son las mas faciles de descubrir, ya que pueden haberte investigado
-                                    para tener esta informacion
-                                    <br>
-                                    (aunque las más usadas son los números)
+                                    Un keylogger es un software malicioso que captura tu información leyendo las teclas
+                                    presionas en el
+                                    teclado, para conseguir datos tales como:</p>
+                                <br>
+                                <ul class="mb-0 text-white-50 ">
+                                    <li>Contraseñas</li>
+                                    <li>Correos electronicos</li>
+                                    <li>Datos bancarios</li>
+                                    <li>Etc.</li>
+                                </ul><br>
+                                <p class="mb-0 text-white-50 " style="font-size: 120%">
+                                    Es almacenada para luego ser enviada al servidor del atacante y poder utilizarla
+                                    para su beneficio.
 
-                                    Tardan menos de un segundo lograr decifrarlas
 
                                 </p>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
@@ -340,37 +347,121 @@
                     </div>
                 </div>
             </div>
-            <!-- contr. + usadas 2-->
+
             <div class="row gx-0 justify-content-center" data-aos="fade-right">
-                <div class="col-lg-6"><img class="img-fluid img-cmu" src="assets/img/password.gif"
+                <div class="col-lg-6"><img class="img-fluid img-cmu width-0" src="img/keylogger-de-hardware.jpg"
+                        alt="Top contraseñas mas usadas" /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto !-- text-center text-lg-right -->">
+                                <h4 class="text-white">TIPOS DE KEYLOGGER: <br> TIPO <span>HARDWARE</span> </h4>
+                                <p class="mb-0 text-white-50" style="font-size: 120%">
+                                    Estos se instalan teniendo acceso físico al dispositivo.
+                                    <br>
+                                    Son más difíciles de detectar por los antivirus, pero son más fáciles de detectar a
+                                    simple vista porque va conectado al teclado.
+                                    <br> Simulan ser adaptadores para el teclado.
+                                    <br>
+                                    (Almacena las pulsaciones en su memoria interna)
+
+
+                                </p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-left">
+                <div class="col-lg-6 border-img"><img class="img-fluid img-cmu" src="img/keylogger2.png"
+                        alt="Contraseñas mas usadas" /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white"> TIPOS DE KEYLOGGER: <br> TIPO SOFTWARE
+                                </h4>
+                                <p class="mb-0 text-white-50" style="font-size: 120%">
+                                    Este puede ser instalado junto con otros tipos de programas nocivos (troyanos, virus
+                                    o
+                                    fishin).
+                                    <br> Suelen ser mandados por correo electrónico y hay muchos infiltrados en los
+                                    juegos
+                                    piratas.
+                                <p class="mb-0 text-white-50">(Clickea para ver más información)</p>
+
+
+                                <div id="padre-S">
+                                    <button onclick="mostrarData()" id="btn-S" class="btn-outline-link btn-texto"><b
+                                            id="b">
+                                            Tipo 1: Keylogger de Kernel</b></button>
+                                    <p id="p-S"> Estos son los más difíciles de detectar. <br>Suelen estar escondidos
+                                        dentro
+                                        del sistema operativo, por ende, funciona como un elemento más del sistema.</p>
+
+
+                                    <button onclick="mostrarData2()" id="btn-S2" class="btn-outline-link btn-texto"><b
+                                            id="b2">
+                                            Tipo 2: Keylogger de API</b></button>
+                                    <p id="p-S2"> Este usa funciones de las API de Windows para poder registrar la
+                                        actividad
+                                        del teclado.</p>
+
+
+                                    <button onclick="mostrarData3()" id="btn-S3" class="btn-outline-link btn-texto"><b
+                                            id="b3">
+                                            Tipo 3: Keylogger de JavaScript</b></button>
+                                    <p id="p-S3"> Estos se inyectan por medio de una pagina web. <br> Detectando los
+                                        eventos
+                                        del teclado por medio de JavaScript.</p>
+
+
+                                    <button onclick="mostrarData4()" id="btn-S4" class="btn-outline-link btn-texto"><b
+                                            id="b4">
+                                            Tipo 4: Keylogger de Inyección de Memoria</b></button>
+                                    <p id="p-S4">Este modifica tablas de memoria vinculadas con las funciones del
+                                        sistema y
+                                        los navegadores .<br> Asi revisan las pulsaciones de tu teclado</p>
+
+
+                                    </p>
+                                </div>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0 justify-content-center" data-aos="fade-right">
+                <div class="col-lg-6"><img class="img-fluid img-cmu" src="img/keylogger4.jpg"
                         alt="Top contraseñas mas usadas" /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">TOP 6 DE CONTRASEÑAS MAS USADAS</h4>
-                                <p class="mb-0 text-white-50 ">
-                                <ol>
-                                    <li style="color: rgba(220, 199, 199, 0.80);  font-size: 120%;">123456 (103.170.552
-                                        veces usada)
-                                    </li>
-                                    <li style="color: rgba(220, 199, 199, 0.80); font-size: 120%;">123456789 (46.027.530
-                                        veces usada)
-                                    </li>
-                                    <li style="color: rgba(220, 199, 199, 0.80); font-size: 120%;">12345 (32.955.431
-                                        veces usada)
-                                    </li>
-                                    <li style="color: rgba(220, 199, 199, 0.80); font-size: 120%;">qwerty (22.317.280
-                                        veces usada)
-                                    </li>
-                                    <li style="color: rgba(220, 199, 199, 0.80); font-size: 120%;">password (20.958.297
-                                        veces usada)
-                                    </li>
-                                    <li style="color:rgba(220, 199, 199, 0.80); font-size: 120%;">12345678 (14.745.771
-                                        veces usada)
-                                    </li>
-                                </ol>
-                                </p>
+                                <h4 class="text-white">FORMAS DE DETECTARLO</h4>
+                                <p id="p-fdk"></p>
+                                <div id="divpadre">
+                                    <button id="boton-k" onclick="mostrarInfo()"> </button>
+                                    <p id="p-k"></p>
+
+                                    <button id="boton-k2" onclick="mostrarInfo2()"></button>
+                                    <p id="p-k2">
+                                    </p>
+                                    <br>
+                                    <button id="boton-k3" onclick="mostrarInfo3()"></button>
+                                    <p id="p-k3"> </p>
+
+
+                                    <button id="boton-k4" onclick="mostrarInfo4()"> formatear por completo del
+                                        equipo</button>
+                                    <p id="p-k4"></p>
+
+                                    </p>
+                                </div>
                                 <hr class="d-none d-lg-block mb-0 me-0" />
                             </div>
                         </div>
@@ -380,45 +471,29 @@
         </div>
     </section>
 
-    <!-- Generador -->
+    <!-- VERIFICADOR-->
     <section class="contact-section bg-black" id="generator">
         <div class="container px-4 px-lg-5">
-            <div class="generator-gif">
+            <div class="text">
                 <br>
-                <h2>Aprende a usar nuestro generador de contraseñas seguras</h2>
-                <img class="img-fluid img-cmu" src="assets/img/generador.gif"
-                    alt="¿Como usar el generador de contraseñas?">
-            </div>
-            <div class="generator-border">
-                <div class="text">
-                    <br>
-                    <h3>Generador de Contraseñas</h3>
-                    <label for="inputLength" class="form-label">Tamaño de la contraseña</label>
-                    <input type="number" id="inputLength" class="form-control text-center" min="1" max="50"
-                        value="12" />
-                    <hr>
-                    <div>
-                        <h3>Opciones</h3>
-                        <input type="checkbox" id="checkbox1" />
-                        <label class="form-check-label" for="checkbox1">Incluir Numeros</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="checkbox2" />
-                        <label class="form-check-label" for="checkbox2">Incluir Simbolos</label>
-                        <hr>
-                    </div>
-                    <div>
-                        <button type="button" class="btn btn-success" id="btnGenerate">Generar Contraseña</button>
-                    </div>
+                <h3 data-aos="fade-right">Verificador de contraseña</h3>
 
-                    <hr />
 
-                    <div class="d-grid gap-2 py-3">
-                        <h3>Contraseña Generada: <span id="generatedPassword"></span></h3>
-                    </div>
+                <input data-aos="fade-down-left" type="text" id="inputLength" class="form-control text-center" min="1"
+                    max="50" placeholder="Ingresa tu contraseña aquí" />
+                <hr>
+                <div data-aos="flip-down">
+                    <button type="button" class="btn btn-success" id="btnGenerate">Verificar contraseña</button>
                 </div>
 
-                <script src="js/generator.js"></script>
+                <hr />
+
+                <div class="d-grid gap-2 py-3" id="verificator">
+                    <h3>Seguridad de la contraseña: <span id="generatedPassword"></span></h3>
+                </div>
+            </div>
+
+            <script src="js/verificador.js"></script>
 
 </html>
 <div class="social d-flex justify-content-center">
@@ -430,8 +505,8 @@
 </section>
 <!-- Footer-->
 <footer class="footer bg-black small text-center text-white-50">
-    <div>Designed by: Ornella Bartomioli, Juan Bautista Galván, Hugo Sebastian Villalva, Luci Torres, Maximiliano
-        Aranda</div>
+    <div>Designed by: Ornella Bartomioli, Juan Bautista Galván, Hugo Sebastian Villalva, Santiago Nicolas Roca, Felipe
+        Carmona, Alegre Joaquina, Marisel Evelin Alarcón, Ian Garro</div>
     <div class="container px-4 px-lg-5">Copyright &copy; SecurityTech 2022</div>
 </footer>
 <!-- Bootstrap core JS-->
@@ -447,6 +522,7 @@
 <script>
     AOS.init();
 </script>
+<script src="js/marcadores.js"></script>
 </body>
 
 </html>
